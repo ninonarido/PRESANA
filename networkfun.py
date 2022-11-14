@@ -21,8 +21,8 @@ def get_data(filename):
     return header, data
 
 # load data in from file
-node_header, node_data = get_data('nodes.tsv')
-edge_header, edge_data = get_data('edges.tsv')
+node_header, node_data = get_data('data/nodes.tsv')
+edge_header, edge_data = get_data('data/edges.tsv')
 
 # create graph object
 G = nx.Graph()

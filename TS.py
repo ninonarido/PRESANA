@@ -13,7 +13,7 @@ matplotlib.rcParams['xtick.labelsize'] = 12
 matplotlib.rcParams['ytick.labelsize'] = 12
 matplotlib.rcParams['text.color'] = 'k'
 
-df = pd.read_excel("c:/Users/ninonarido/Documents/Git/python/Demo/Time Series/Superstore.xls")
+df = pd.read_excel("data/Superstore.xls")
 furniture = df.loc[df['Category'] == 'Furniture']
 
 furniture['Order Date'].min(), furniture['Order Date'].max()
@@ -127,5 +127,4 @@ plt.show()
 # Estimate - ???
 # Show Trend  -  ???
 # Display Patterns and Anomaly  - ???
-
 
